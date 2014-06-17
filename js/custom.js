@@ -1,13 +1,22 @@
-var rotation = function (){
-  $("#image").rotate({
-    angle:0,
-    animateTo:360,
-    callback: rotation,
-    easing: function (x,t,b,c,d){ // t: current time, b: begInnIng value, c: change In value, d: duration
-      return c*(t/d)+b;
+var isHovering = false;
+var el = $(".elem").mouseover(function(){
+    isHovering = true;
+    spin();
+}).mouseout(function(){
+    isHovering = false;
+});
+var spin = function(){
+    if(isHovering){
+        el.removeClass("spin");
+
+        setTimeout(function(){
+            el.addClass("spin");
+
+            setTimeout(spin, 1500);
+        }, 0);
     }
-  });
 };
+
 $(document).ready(function() {
-  rotation();
+  spin();
 });
