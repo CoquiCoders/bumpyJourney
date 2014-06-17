@@ -11,7 +11,7 @@ var cardData = {
       cardContent: "Certificate of good standing expired, PLEASE START ALL OVER",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
-    } // This is the last card and there should be NO coma here.
+    },
     {
       cardName: "Lost Keys",
       cardContent: "We are sorry but a new employee lost the keys to the basement where your files are stored. GO BACK ONE SPACE",
@@ -31,8 +31,8 @@ var cardData = {
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Hurricane",
-      cardContent: "Miguel Coto, our national restler is playing for the world tournament and everyone is out the office. GO BACK ONE SPACE",
+      cardName: "Wrestler in battle",
+      cardContent: "Miguel Coto, our national wrestler is playing for the world tournament and everyone is out the office. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
@@ -55,7 +55,7 @@ var cardData = {
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Hurricane",
+      cardName: "Merging agencies",
       cardContent: "Our Agency merged and we still haven't decided roles and responsibilities. We don't know who will be in charge of your application. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
@@ -101,8 +101,7 @@ var cardData = {
       cardName: "Watch out! Hurricane",
       cardContent: "A hurricane is approaching the island, everyone needs to leave the office. Go back two spaces",
       cardBgColor: "white",
-      cardTextColor: "#000000" // NO COMA on last element.
-    }, // This is not the last card and there should be a coma here.
-    {
-  ]
+      cardTextColor: "#000000" 
+    }
+ ]
 };
