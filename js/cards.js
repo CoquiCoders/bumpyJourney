@@ -11,7 +11,7 @@ var cardData = {
       cardContent: "Certificate of good standing expired, PLEASE START ALL OVER",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
-    } // This is the last card and there should be NO coma here.
+    }, // This is the last card and there should be NO coma here.
     {
       cardName: "Lost Keys",
       cardContent: "We are sorry but a new employee lost the keys to the basement where your files are stored. GO BACK ONE SPACE",
@@ -68,8 +68,7 @@ var cardData = {
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Sick employee",
-      cardContent: "The lady that knows about your file has sick kids today and she is staying home. GO BACK TWO SPACES
-",
+      cardContent: "The lady that knows about your file has sick kids today and she is staying home. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
@@ -103,6 +102,5 @@ var cardData = {
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
-    {
   ]
 };

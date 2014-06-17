@@ -94,6 +94,7 @@ var spinner = {
   },
   showRandomCard: function() {
     console.log('card showin');
+    console.log(cardData);
     var spinner = this;
     var randomIndex = _.random(0, [cardData.general.length] -1);
     var randomCard = _.extend(
