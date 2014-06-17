@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body
 {
- background-color: green
+ background-image: url("../assets/bg-pattern.png");
+ font-family: 'Montserrat', sans-serif; 
 }
 
 .elem{
@@ -10,37 +13,40 @@ body
   display:none;
 }
 .card-inner {
-  border: 3px solid black;
+  border: 5px solid #B3B3B3;
   padding: 3%;
-  margin: 1%;
+  margin: 2% auto;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
+  max-width: 400px;
+  min-height: 500px;
 }
 
 .burst-8 {
-    background: red;
-    width: 100px;
-    height: 100px;
+    background: #CE0B64;
+    width: 175px;
+    height: 175px;
     position: relative;
     text-align: center;
+    margin-top: 15%;
     margin-left:auto;
     margin-right:auto;
     -webkit-transform: rotate(20deg);
        -moz-transform: rotate(20deg);
         -ms-transform: rotate(20deg);
-         -o-transform: rotate(20eg);
+         -o-transform: rotate(20deg);
 }
 .burst-8:before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    height: 100px;
-    width: 100px;
+    height: 175px;
+    width: 175px;
 
-    background: red;
+    background: #CE0B64;
     -webkit-transform: rotate(135deg);
        -moz-transform: rotate(135deg);
         -ms-transform: rotate(135deg);
