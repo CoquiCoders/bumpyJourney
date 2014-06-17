@@ -1,8 +1,8 @@
 var cardData = {
   general: [
     {
-      cardName: "Cool Card 1",
-      cardContent: "Some content to fit into cool card 1",
+      cardName: "Hurricane coming soon",
+      cardContent: "A hurricane is approaching the island, everyone left the office",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
