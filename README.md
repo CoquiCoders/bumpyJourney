@@ -6,7 +6,7 @@ Remember with javascript, the last element in an array or an object should NOT h
 
 ###Working locally
 *  `git clone git@github.com:CoquiCoders/bumpyJourney.git`
-*  `npm instal -g http-server`
+*  `npm install -g http-server`
 *  `cd /where/you/cloned/this/repo`
 *  `http-sever .`
 
