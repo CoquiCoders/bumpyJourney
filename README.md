@@ -18,3 +18,4 @@ However, when you push,
 You should be able to see the build site at
 
 http://coquicoders.github.io/bumpyJourney
+
