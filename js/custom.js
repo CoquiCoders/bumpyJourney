@@ -3,7 +3,7 @@ var animateWithCss = function(element, effect, operation, callback) {
   if (operation == 'show') {
     $(element).show();
   }
-  $(element).bind(cssTransitionEnd, function(e) {
+  $(element).one(cssTransitionEnd, function(e) {
     console.log('transition complete');
     console.log(e);
     $(element).removeClass('animated').removeClass(effect);
@@ -40,6 +40,7 @@ var spinner = {
         spinner.showRandomCard();
       }
       else if (window.location.hash == '' || window.location.hash == '#') {
+        console.log('hash call show spinner');
         spinner.showSpinner();
       }
     }
@@ -48,10 +49,12 @@ var spinner = {
   showSpinner: function() {
     var spinner = this;
     animateWithCss(this.el, 'fadeIn', 'show', function() {
+      console.log('fadein spinner');
       console.log('show spinner.');
     });
     // Bind click to spinner.
-    element.click(function() {
+    element.on('click',  function() {
+      console.log('spin click');
       spinner.spinStart(spinner.options.spinDuration, spinner.spinStop);
     });
   },
