@@ -101,6 +101,6 @@ var cardData = {
       cardContent: "A hurricane is approaching the island, everyone needs to leave the office. Go back two spaces",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
-    }, // This is not the last card and there should be a coma here.
+    } // This is not the last card and there should be a coma here.
   ]
 };
