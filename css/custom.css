@@ -12,13 +12,15 @@ body
   color: #7F204B;
   font-size:2.5em;
   position:relative;
-  left: 144px;
-  float:left;
-  bottom:105px;
+  bottom:60%;
 }
 
 .elem{
   margin-top:50px;
+  margin-left:auto;
+  margin-right:auto;
+  height: 175px;
+  width: 175px;
 }
 .hidden {
   display:none;
