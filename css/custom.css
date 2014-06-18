@@ -10,8 +10,11 @@ body
 .helpline{
   text-align:center;
   color: #7F204B;
-  margin-top:-105px;
   font-size:2.5em;
+  position:relative;
+  left: 45%;
+  float:left;
+  bottom:105px;
 }
 
 .elem{
