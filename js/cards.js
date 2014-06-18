@@ -2,37 +2,37 @@ var cardData = {
   general: [
     {
       cardName: "Lucky day",
-      cardContent: "Today is your lucky day: you know a buddy in the agency that will speed the process. GO FORWARD TWO SPACES",
+      cardContent: "Today is your lucky day: you know a buddy in the agency that will speed up a slow process. GO FORWARD TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Drama at the office",
-      cardContent: "The boss of the company we hired to handle our system is getting a divorce from this agency boss. The system is not in place. GO BACK TWO SPACES",
+      cardContent: "A manager at your company hired her boyfriend as a contractor to implement a new system. Today you found out they broke up. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Strike",
-      cardContent: "People are striking in the street. Office closed. GO BACK TWO SPACES",
+      cardContent: "Today a general strike was announced in your city. Office closed. GO BACK ONE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Software update",
-      cardContent: "The vendor supplying the CRM is updating versions of the software. Temporary out of service. GO BACK TWO SPACES",
+      cardContent: "The vendor supplying your CRM is updating their software. Temporarily out of service. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Happy day",
-      cardContent: "You know the person in charge of your paperwork. GO FORWARD TWO SPACES",
+      cardContent: "Your friend from school works at an important government agency and is put in charge of your paperwork there. GO FORWARD THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Junk Debt",
-      cardContent: "The debt downgraded to junk status and the government agencies decided to shut down. GO BACK TWO SPACES",
+      cardContent: "Today the national debt was downgraded to junk status and the government agencies decided to shut down. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
@@ -44,163 +44,163 @@ var cardData = {
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Lottery",
-      cardContent: "You get to be 1/10 to use the new pilot program for the 24hr permitting process. GO FORWARD FOUR SPACES",
+      cardContent: "You are invited to a new pilot program for rapid 24 hour permitting process. GO FORWARD FOUR SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Tourists arriving to the island",
-      cardContent: "10 cruise ships docked in Old San Juan, everyone went go because water supply went off. GO BACK TWO SPACES",
+      cardName: "Watch out! Tourists arriving to the island!",
+      cardContent: "Ten cruise ships docked in Old San Juan today and the extra demand shut down the water supply. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Oh no! Flood!",
-      cardContent: "Flood in the basement ruined your files. GO BACK TWO SPACES",
+      cardContent: "An emergency flood in the basement ruined your files. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Traffic Jam",
-      cardContent: "Traffic Jam made people skip afternoon shift. GO BACK TWO SPACES",
+      cardContent: "Traffic Jam made people skip the afternoon shift. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Storm warning",
-      cardContent: "Governor cancelled work for the couple of days. GO BACK TWO SPACES",
+      cardName: "Storm Warning",
+      cardContent: "The governor cancelled work for two days. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Hollidays are coming",
-      cardContent: "Summer is in two weeks, agency party, office closed. GO BACK TWO SPACES",
+      cardName: "Holidays are coming",
+      cardContent: "Agency party with awkward intoxication. Office closed afterward for recovery. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Scandal",
-      cardContent: "Director of agency quit because of scandal with an employee. New director coming in soon, meantime agency closed. GO BACK TWO SPACES",
+      cardContent: "Director responsible for scandal with a subordinate employee. You had to fire them on immediately. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "No paper",
-      cardContent: "Treasury ran out of paper for receipts. GO BACK TWO SPACES",
+      cardName: "No Paper",
+      cardContent: "The treasury ran out of paper for receipts. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Long line",
-      cardContent: "We feel sorry for you wasting a day in line but more people showed up. GO BACK TWO SPACES",
+      cardContent: "We are sorry wasting your day in line but all these people showed up before you. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Duplicated company",
-      cardContent: "We updated the information and your company appears as already in used. GO BACK TWO SPACES",
+      cardName: "Duplicate company name",
+      cardContent: "We updated the information and your company name is already in use. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Hurricane",
-      cardContent: "A hurricane is approaching the island, everyone needs to leave the office. GO BACK TWO SPACES",
+      cardName: "Watch out! Hurricane!",
+      cardContent: "A hurricane is approaching the island. Everyone needs to leave the office pronto! GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Old Certificate",
-      cardContent: "Certificate of good standing expired, PLEASE START ALL OVER",
+      cardName: "Good Standing Lost",
+      cardContent: "Certificate of good standing expired. Your lawyer is skeptical of recovery. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is the last card and there should be NO coma here.
     {
       cardName: "Lost Keys",
-      cardContent: "We are sorry but a new employee lost the keys to the basement where your files are stored. GO BACK ONE SPACE",
+      cardContent: "A new employee lost the keys to the filing cabinet. Doh! GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Bomb threat",
+      cardName: "Bomb Threat",
       cardContent: "There is a bomb threat and we need to evacuate the office. GO BACK TWO SPACES.",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Out of power",
-      cardContent: "The power storage was overused. We will restablish it soon. GO BACK TWO SPACES",
+      cardName: "Out of Power",
+      cardContent: "The power storage was overused causing unplanned downtime. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Wrestler in battle",
-      cardContent: "Miguel Coto, our national wrestler, is fighting for the world tournament and everyone is out the office. GO BACK ONE SPACE",
+      cardName: "Wrestler in Battle",
+      cardContent: "Miguel Coto the national wrestling hero is fighting for the world tournament and everyone is out the office. GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Amended law",
-      cardContent: "There is a new amended law and we need to define future steps. PLEASE GO BACK ONE SPACE",
+      cardName: "Amended Law",
+      cardContent: "There is a new amended law and we need to define future steps to avoid negative consequences. PLEASE GO BACK ONE SPACE",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Hurricane",
-      cardContent: "A hurricane is approaching the island, everyone needs to leave the office now. GO BACK TWO SPACES",
+      cardName: "Watch out! Hurricane!",
+      cardContent: "A hurricane is approaching the island. Everyone needs to leave the office now! GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Ethernet cable",
-      cardContent: "The employee that handles your application left his ethernet cable at home. GO BACK TWO SPACES",
+      cardName: "Cut Cable",
+      cardContent: "The cable guy cut the wrong cable. Whoops! GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Merging agencies",
-      cardContent: "Our Agency merged and we still haven't decided roles and responsibilities. We don't know who will be in charge of your application. GO BACK THREE SPACES",
+      cardName: "Merging Agencies",
+      cardContent: "Our company merged and we still haven't decided roles and responsibilities. Grrrrrr. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "New Director",
-      cardContent: "Due to elections that happened yesterday the office is closed. GO BACK THREE SPACES ",
+      cardContent: "Due to elections yesterday the office is closed. GO BACK ONE SPACES ",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Sick employee",
-      cardContent: "The lady that handles your application has her kids sick and she stayed at home. GO BACK TWO SPACES",
+      cardName: "Sick Kid",
+      cardContent: "Your child is ill and you have to stay home to take care of them. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Excel crashed",
-      cardContent: "Microsoft new version was not fully updated. GO BACK TWO SPACES",
+      cardName: "Excel Crashed",
+      cardContent: "I hate it when that happens. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "IT department shut down",
-      cardContent: "There is a security threat and the IT department had to shut down. GO BACK THREE SPACES",
+      cardName: "IT Department Down",
+      cardContent: "Hackers are causing a security threat and the IT department had to shut down. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "A neglicence",
+      cardName: "Negligence",
       cardContent: "A new intern deleted the database and we don't have a backup. GO BACK THREE SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Watch out! Big waves",
-      cardContent: "An employee was surfing this morning and got injured. Office closed. GO BACK TWO SPACES",
+      cardName: "Watch out! Big waves!",
+      cardContent: "An employee was surfing this morning and was injured. Office closed amigo! GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
-      cardName: "Application expired ",
-      cardContent: "Your application is out-of-date. GO BACK TWO SPACES",
+      cardName: "Application Expired ",
+      cardContent: "Your important software license is out-of-date. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" 
     }
