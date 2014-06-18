@@ -194,13 +194,13 @@ var cardData = {
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Watch out! Big waves",
-      cardContent: "An employee was surfing this morning and got injured. Office closed. Go back two spaces",
+      cardContent: "An employee was surfing this morning and got injured. Office closed. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" // NO COMA on last element.
     }, // This is not the last card and there should be a coma here.
     {
       cardName: "Application expired ",
-      cardContent: "Your application is out-of-date",
+      cardContent: "Your application is out-of-date. GO BACK TWO SPACES",
       cardBgColor: "white",
       cardTextColor: "#000000" 
     }
