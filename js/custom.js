@@ -110,8 +110,9 @@ var spinner = {
         event.preventDefault();
         console.log('callback exe');
         event.stopPropagation();
-        spinner.hideRandomCard();
-        window.location.hash = '';
+        spinner.hideRandomCard(function() {
+          window.location.hash = '';
+        });
       });
     });
   }
