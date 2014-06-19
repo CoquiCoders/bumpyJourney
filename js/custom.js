@@ -4,8 +4,6 @@ var animateWithCss = function(element, effect, operation, callback) {
     $(element).show();
   }
   $(element).one(cssTransitionEnd, function(e) {
-    console.log('transition complete');
-    console.log(e);
     $(element).removeClass('animated').removeClass(effect);
     if (operation == 'hide') {
       $(element).hide();
@@ -22,25 +20,19 @@ var spinner = {
   },
   init: function(elemClass) {
     this.el = element = $(elemClass);
-    console.log('init');
     var spinner = this;
     var hash = window.location.hash;
     if (hash == '#card') {
-      console.log('init call show random');
       spinner.showRandomCard();
     }
     else {
       spinner.showSpinner();
     }
     window.onhashchange = function() {
-      console.log('hash')
-      console.log(window.location.hash);
       if (window.location.hash == '#card') {
-        console.log('hash call show random');
         spinner.showRandomCard();
       }
       else if (window.location.hash == '' || window.location.hash == '#') {
-        console.log('hash call show spinner');
         spinner.showSpinner();
       }
     }
@@ -49,18 +41,14 @@ var spinner = {
   showSpinner: function() {
     var spinner = this;
     animateWithCss(this.el, 'fadeIn', 'show', function() {
-      console.log('fadein spinner');
-      console.log('show spinner.');
     });
     // Bind click to spinner.
     element.on('click',  function() {
-      console.log('spin click');
       spinner.spinStart(spinner.options.spinDuration, spinner.spinStop);
     });
   },
 
   spinStart: function(duration, endSpinCallback) {
-    console.log('spinStart');
     var duration = duration || this.options.spinDuration;
     var element = this.el;
     var spinner = this;
@@ -77,7 +65,6 @@ var spinner = {
     });
   },
   spinStop: function(context) {
-    console.log('spinStop');
     var spinner = context || this;
     element = spinner.el;
     element.removeClass('spin');
@@ -93,8 +80,6 @@ var spinner = {
     });
   },
   showRandomCard: function() {
-    console.log('card showin');
-    console.log(cardData);
     var spinner = this;
     var randomIndex = _.random(0, [cardData.general.length] -1);
     var randomCard = _.extend(
@@ -106,14 +91,18 @@ var spinner = {
     $(cardElement).html(cardContent);
     animateWithCss(cardElement, 'fadeIn', 'show', function() {
       // Bind buttons.
-      $('.card .go-again').click(function() {
+      var random = 'random-' + _.random(0, 9999999);
+      $('.card .go-again').addClass(random);
+      $('.card .go-again.' + random).one('click', function(event) {
         event.preventDefault();
-        console.log('callback exe');
         event.stopPropagation();
         spinner.hideRandomCard(function() {
           window.location.hash = '';
         });
       });
+     setTimeout(function() {
+	$('.card .go-again.' + random).click();
+      }, 10000);
     });
   }
 };
