@@ -33,9 +33,9 @@ body
   -moz-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
-  max-width: 90%;
-  min-height: 90%;
-}
+  max-width: 400px;
+  height: 550px;
+  }
 
 .card-content {
 	color: #666666;
@@ -92,3 +92,12 @@ h1 {
 .btn-primary.active {
 	margin-top: 10%;
 }
+
+@media only screen 
+and (min-device-width : 399px) 
+and (max-device-width : 699px)  {
+ .card-inner {
+	 width: 300px;
+	 height: 400px;
+ }
+ }
