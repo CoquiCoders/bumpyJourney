@@ -101,7 +101,7 @@ var spinner = {
         });
       });
      setTimeout(function() {
-	$('.card .go-again.' + random).click();
+        $('.card .go-again.' + random).click();
       }, 10000);
     });
   }
